@@ -15,6 +15,6 @@ const PageContainer = styled.div`
 
 export function HomePage() {
     return <PageContainer>
-        Hellow World!
+        Hellow World! How are you?
     </PageContainer>
 }
