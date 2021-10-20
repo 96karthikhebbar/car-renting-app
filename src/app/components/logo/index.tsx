@@ -21,7 +21,7 @@ const LogoText = styled.div`
   `};  
 `;
 
-const Image = stgityled.div`
+const Image = styled.div`
   
   width: auto;
   ${tw`
