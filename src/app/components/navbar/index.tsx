@@ -16,14 +16,8 @@ items-center
 lg:pl-12
 lg:pr-12
 md:pl-8
-md:pl-8
-pl-4
-pl-4
-lg:pr-12
-lg:pr-12
 md:pr-8
-md:pr-8
-pr-4
+pl-4
 pr-4
 justify-between
 `}
