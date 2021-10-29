@@ -17,6 +17,8 @@ const TopSectionContainer = styled.div`
         justify-between
         pl-3
         pr-3
+        md:pl-8
+        md:pr-8
         lg:pl-12
         lg:pr-12
     `};
@@ -28,7 +30,9 @@ const LeftContainer = styled.div`
         flex
         flex-col
         relative
-        mt-20
+        mt-0
+        md:mt-12
+        lg:mt-24
     `}
 `;
 
@@ -52,7 +56,8 @@ const Slogan = styled.h1`
         lg:font-black
         md:font-extrabold
         text-black
-        mb-4
+        mb-2
+        md:mb-4
         sm:leading-snug
         lg:leading-normal
         xl:leading-relaxed
@@ -66,6 +71,8 @@ const Description = styled.p`
         xl:text-lg
         sm:max-h-full
         overflow-hidden
+        mb-2
+        md:mb-4
         max-h-12
         text-green-800
     `};
@@ -144,8 +151,11 @@ const StandaloneCar = styled.div`
 `;
 
 const ButtonsContainer = styled.div`
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(2, minmax(120px, 1fr));
   ${tw`
-    flex
+    
   `};
 `;
 
@@ -160,8 +170,8 @@ export function TopSection() {
           you like.
         </Description>
         <ButtonsContainer>
-          <Button text = "Book Your Ride" />
-          <Button theme= "filled" text = "Sell Your Car" />
+          <Button text="Book Your Ride" />
+          <Button theme="filled" text="Sell Your Car" />
         </ButtonsContainer>
       </LeftContainer>
       <RightContainer>
