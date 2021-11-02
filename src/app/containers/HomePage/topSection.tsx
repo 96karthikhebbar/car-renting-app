@@ -30,7 +30,7 @@ const LeftContainer = styled.div`
         flex
         flex-col
         relative
-        mt-0
+        mt-[-6em]
         md:mt-12
         lg:mt-24
     `}
@@ -153,9 +153,10 @@ const StandaloneCar = styled.div`
 const ButtonsContainer = styled.div`
   display: grid;
   gap: 1em;
-  grid-template-columns: repeat(2, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  flex-wrap: wrap;
   ${tw`
-    
+    mt-4
   `};
 `;
 

@@ -19,12 +19,14 @@ const BaseButton = styled.button`
         font-semibold
         border-transparent
         border-2
+        /* border-radius[.4em] */
         border-solid
         focus:outline-none
         transition-all
         duration-200
         ease-in-out
         m-0
+        md:m-2
     `};
 `;
 
